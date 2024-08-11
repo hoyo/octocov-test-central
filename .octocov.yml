@@ -2,6 +2,7 @@ central:
   reports:
     datastores:
       - artifact://hoyo/octocov-test
+      - artifact://hoyo/octocov-test-private
   badges:
     datastores:
       - local://badges
