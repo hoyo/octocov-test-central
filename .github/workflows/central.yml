@@ -21,6 +21,7 @@ jobs:
         with:
           app-id: 967671
           private-key: ${{ secrets.APP_PRIVATE_KEY }}
+          owner: hoyo
       - name: Check out source code
         uses: actions/checkout@v4
       - name: Run octocov
